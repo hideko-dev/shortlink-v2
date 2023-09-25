@@ -1,0 +1,30 @@
+{
+  "name": "homepage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Hideko",
+  "license": "MIT",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:routify": "routify",
+    "dev:vite": "vite --host",
+    "preview": "vite preview",
+    "build": "run-s build:*",
+    "build:routify": "routify -b",
+    "build:vite": "vite build"
+  },
+  "devDependencies": {
+    "@roxi/routify": "^2.18.12",
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "npm-run-all": "^4.1.5",
+    "svelte": "^4.0.5",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.33.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "svelte-french-toast": "^1.2.0",
+    "svelte-ripple-action": "^1.0.3"
+  }
+}
