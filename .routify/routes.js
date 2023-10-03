@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.12
- * File generated Mon Sep 25 2023 21:45:47 GMT+0900 (日本標準時)
+ * File generated Tue Oct 03 2023 21:56:24 GMT+0900 (日本標準時)
  */
 
 export const __version = "2.18.12"
-export const __timestamp = "2023-09-25T12:45:47.163Z"
+export const __timestamp = "2023-10-03T12:56:24.167Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -83,6 +83,81 @@ export const _tree = {
           "path": "/about/index",
           "id": "_about_index",
           "component": () => import('../src/pages/about/index.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "info.svelte",
+          "filepath": "/about/info.svelte",
+          "name": "info",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "E:/Develops/extend-js/hideko-web-3/src/pages/about/info.svelte",
+          "importPath": "../src/pages/about/info.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/about/info",
+          "id": "_about_info",
+          "component": () => import('../src/pages/about/info.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "names.svelte",
+          "filepath": "/about/names.svelte",
+          "name": "names",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "E:/Develops/extend-js/hideko-web-3/src/pages/about/names.svelte",
+          "importPath": "../src/pages/about/names.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/about/names",
+          "id": "_about_names",
+          "component": () => import('../src/pages/about/names.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "profile.svelte",
+          "filepath": "/about/profile.svelte",
+          "name": "profile",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "E:/Develops/extend-js/hideko-web-3/src/pages/about/profile.svelte",
+          "importPath": "../src/pages/about/profile.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/about/profile",
+          "id": "_about_profile",
+          "component": () => import('../src/pages/about/profile.svelte').then(m => m.default)
         }
       ],
       "isLayout": false,

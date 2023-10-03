@@ -24,7 +24,6 @@
         align-items: center;
         font-family: medium;
         font-size: 32px;
-        background: url("../../../../public/_media/title_bg.webp") no-repeat center/cover;
     }
     .icon {
         display: flex;

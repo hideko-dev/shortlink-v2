@@ -16,4 +16,15 @@
         justify-content: center;
         align-items: center;
     }
+    .works::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: url("../../../public/_media/title_bg.webp") no-repeat center/cover;
+        filter: blur(20px);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 </style>
